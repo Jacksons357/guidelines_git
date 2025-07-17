@@ -109,14 +109,14 @@ Use o formato: `tipo/nome-da-tarefa`
 ## 🔁 Fluxo completo de trabalho (Git Flow simplificado)
 
 ```bash
-# 1Acesse a branch de desenvolvimento
+# 1. Acesse a branch de desenvolvimento
 git checkout develop
 git pull origin develop
 
 # 2. Crie uma nova branch para sua tarefa
 git checkout -b feature/nome-da-tarefa
 
-# 3ça suas alterações no código
+# 3. Faça suas alterações no código
 # ... edite os arquivos ...
 
 # 4. Verifique o status das alterações
@@ -129,11 +129,13 @@ git add .                      # Adiciona todos os arquivos
 git add arquivo-especifico.js  # Adiciona arquivo específico
 
 # 6. Faça o commit com mensagem descritiva
-git commit -m "feat: descreva sua mudança aqui
-# 7vie para o repositório remoto
+git commit -m "feat: descreva sua mudança aqui"
+
+# 7. Envie para o repositório remoto
 git push origin feature/nome-da-tarefa
 
-# 8No GitHub, abra um Pull Request para a branch develop
+# 8. No GitHub, abra um Pull Request para a branch develop
+# (Acesse o repositório no navegador e clique em "Compare & pull request" para iniciar o PR)
 ```
 
 ---
